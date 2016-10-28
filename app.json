@@ -1,0 +1,7 @@
+{
+  "name": "Parrot Bomb!",
+  "description": "/parrotbomb",
+  "repository": "https://github.com/milocarbol/parrotbomb",
+  "keywords": [],
+  "image": "heroku/nodejs"
+}
