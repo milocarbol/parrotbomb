@@ -42,6 +42,10 @@ var parrot = {
   },
   
   make_bomb : function(text, repeats) {
+    if (text.length * repeats > 4000) {
+      repeats = 4000 / text.length;
+    }
+    
     var bomb = '';
     for (var i = 0; i < repeats; i++) {
       bomb += text;
